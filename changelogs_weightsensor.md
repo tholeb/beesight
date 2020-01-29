@@ -13,7 +13,8 @@
 -  - [x] Étalonnage des capteurs de poids (chaque capteur a son module attribué et ne sera pas changé étant donné que les valeurs changent entres elles. 
 ### Capteur #0
 |Poids *(kg)*|Résultat sur le capteur(?)| Calcul Masse |
-|--|--|--|
+|--
+|--|--|
 | 0 kg (capteur vide) | 279 | |
 | 1 kg | 285 | |
 | 2 kg | 292 | |
@@ -28,7 +29,8 @@
 
 ### Capteur #1
 |Poids *(kg)*|Résultat sur le capteur(?)| Calcul Masse (P = m.g)|
-|--|--|--|
+|--
+|--|--|
 | 0 kg (capteur vide) | 296 | |
 | 1 kg | 302 | |
 | 2 kg | 310 | |
@@ -58,5 +60,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIyMzQ1NTc2LDE3MzAzMzczNDZdfQ==
+eyJoaXN0b3J5IjpbMTgxMjQ4MjYyOCw4MjIzNDU1NzYsMTczMD
+MzNzM0Nl19
 -->
