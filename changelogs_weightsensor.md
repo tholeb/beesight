@@ -5,12 +5,12 @@
 - Démarrage du site internet
     - Dossier `Assets` mis en place
     - Index démarré (sticky navbar, footer, parallax, Datatables.js, charts.js)
-- 
+- Recherche par rapport au capteur de poids, par rapport aux graphiques Charts.js
 
 ## 29/01/2019 - Mercredi
 - Démarrage du "journal de bords"
 - Résolution des problèmes du capteur (Manque de la masse et module HS)
--  - [x] Étalonnage des capteurs de poids (chaque cap
+-  - [x] Étalonnage des capteurs de poids (chaque capteur a son module attribué et ne sera pas changé étant donné que les valeurs changent entres elles. 
 ### Capteur #0
 |Poids *(kg)*|Résultat sur le capteur(?)| Calcul Masse |
 |--|--|--|
@@ -58,5 +58,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ1NTc1NjQ5LDE3MzAzMzczNDZdfQ==
+eyJoaXN0b3J5IjpbODIyMzQ1NTc2LDE3MzAzMzczNDZdfQ==
 -->
