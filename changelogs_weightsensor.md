@@ -56,8 +56,9 @@
 #### Courbe de tendance de capteur #2
 ![Courbe de tendance du module #2](https://i.imgur.com/DvhTE50.png)
 
-
+## 30/01/2019 - Jeudi
+- Ré-étalonnage du capteur (Cf: les valeurs au dessus)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNzkyMTI3NywxODEyNDgyNjI4LDgyMj
-M0NTU3NiwxNzMwMzM3MzQ2XX0=
+eyJoaXN0b3J5IjpbNzQ5OTAwOTAyLDE4MTI0ODI2MjgsODIyMz
+Q1NTc2LDE3MzAzMzczNDZdfQ==
 -->
