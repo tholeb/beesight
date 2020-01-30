@@ -30,12 +30,12 @@ void loop() {
 |Poids *(kg)*|Résultat sur le capteur(?)|
 |--|--|
 | 0 kg (capteur vide) | 276 |
-| 1 kg |  |
-| 2 kg | 292 |
-| 3 kg | 298 |
-| 5 kg | 311 |
-| 6 kg | 317|
-| 7 kg | 321 |
+| 1 kg | 282 |
+| 2 kg | 289 |
+| 3 kg | 294 |
+| 5 kg | 304 |
+| 6 kg | 311|
+| 7 kg | 320 |
 | 8 kg | 327 |
 
 #### Courbe de tendance de Capteur #0
@@ -74,7 +74,7 @@ void loop() {
 ## 30/01/2019 - Jeudi
 - Ré-étalonnage du capteur (Cf: les valeurs au dessus)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MTgwMjE2NSw3MzE3MTMzNzksNzQ5OT
+eyJoaXN0b3J5IjpbLTY3ODIzOTgzNCw3MzE3MTMzNzksNzQ5OT
 AwOTAyLDE4MTI0ODI2MjgsODIyMzQ1NTc2LDE3MzAzMzczNDZd
 fQ==
 -->
