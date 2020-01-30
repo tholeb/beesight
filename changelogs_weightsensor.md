@@ -73,9 +73,19 @@ void loop() {
 
 ## 30/01/2019 - Jeudi
 - Ré-étalonnage du capteur (Cf: les valeurs au dessus)
+- Mis à Jour du site internet ()
+
+
+
+
+# Changelogs site internet
+
+## Avant 29/01/2019
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2ODc3MjMxOCwyMzYyMjk2OTIsNDU3OT
-c3NjcwLDc3NzE1MTM5LC02NzgyMzk4MzQsNzMxNzEzMzc5LDc0
-OTkwMDkwMiwxODEyNDgyNjI4LDgyMjM0NTU3NiwxNzMwMzM3Mz
-Q2XX0=
+eyJoaXN0b3J5IjpbLTIxNDk0MDg1MCwtNjY4NzcyMzE4LDIzNj
+IyOTY5Miw0NTc5Nzc2NzAsNzc3MTUxMzksLTY3ODIzOTgzNCw3
+MzE3MTMzNzksNzQ5OTAwOTAyLDE4MTI0ODI2MjgsODIyMzQ1NT
+c2LDE3MzAzMzczNDZdfQ==
 -->
