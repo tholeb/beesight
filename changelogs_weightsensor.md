@@ -54,7 +54,7 @@ void loop() {
 | 8 kg | 396 |
 
 #### Courbe de tendance de capteur #1
-![Courbe de tendance de Module #1](https://i.imgur.com/3rwIbeU.png)
+![Courbe de tendance de Module #1](https://i.imgur.com/U3jx82K.png)
 
 ### Capteur #2
 |Poids *(kg)*|Résultat sur le capteur(?)|
@@ -74,7 +74,7 @@ void loop() {
 ## 30/01/2019 - Jeudi
 - Ré-étalonnage du capteur (Cf: les valeurs au dessus)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzE3ODE4NDgsNzc3MTUxMzksLTY3OD
+eyJoaXN0b3J5IjpbLTE5MDUxNjc1ODAsNzc3MTUxMzksLTY3OD
 IzOTgzNCw3MzE3MTMzNzksNzQ5OTAwOTAyLDE4MTI0ODI2Mjgs
 ODIyMzQ1NTc2LDE3MzAzMzczNDZdfQ==
 -->
