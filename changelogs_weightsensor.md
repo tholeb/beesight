@@ -9,6 +9,18 @@
 - Tentative de prise de mesures sur le capteur (mesures fausses, manquement de la masse)
 - Programme de la masse: 
 ```arduino
+int analogPin = A0;
+int val = 0;
+
+void setup() {
+  Serial.begin(9600);
+}
+void loop() {
+  val = analogRead(analogPin);
+  val = map(val,348,521,0,500);
+  Serial.println(val);
+  delay (1000);
+}
 ```
 
 ## 29/01/2019 - Mercredi
@@ -62,6 +74,6 @@
 ## 30/01/2019 - Jeudi
 - Ré-étalonnage du capteur (Cf: les valeurs au dessus)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NjA3Njk3OSw3NDk5MDA5MDIsMTgxMj
+eyJoaXN0b3J5IjpbLTQ5NTEzNDAwOSw3NDk5MDA5MDIsMTgxMj
 Q4MjYyOCw4MjIzNDU1NzYsMTczMDMzNzM0Nl19
 -->
