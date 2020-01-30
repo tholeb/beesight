@@ -1,5 +1,5 @@
 
-# Journal de bords - Capteur de poids 
+# Journal de bords - Thomas LEBRETON
 
 ## Avant 29/01/2019
 - Démarrage du site internet
@@ -74,7 +74,7 @@ void loop() {
 ## 30/01/2019 - Jeudi
 - Ré-étalonnage du capteur (Cf: les valeurs au dessus)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU3OTc3NjcwLDc3NzE1MTM5LC02NzgyMz
-k4MzQsNzMxNzEzMzc5LDc0OTkwMDkwMiwxODEyNDgyNjI4LDgy
-MjM0NTU3NiwxNzMwMzM3MzQ2XX0=
+eyJoaXN0b3J5IjpbLTEzNzg3MjMyNDUsNDU3OTc3NjcwLDc3Nz
+E1MTM5LC02NzgyMzk4MzQsNzMxNzEzMzc5LDc0OTkwMDkwMiwx
+ODEyNDgyNjI4LDgyMjM0NTU3NiwxNzMwMzM3MzQ2XX0=
 -->
