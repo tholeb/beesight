@@ -29,8 +29,8 @@ void loop() {
 ### Capteur #0
 |Poids *(kg)*|Résultat sur le capteur(?)|
 |--|--|
-| 0 kg (capteur vide) | 279 |
-| 1 kg | 285 |
+| 0 kg (capteur vide) | 276 |
+| 1 kg |  |
 | 2 kg | 292 |
 | 3 kg | 298 |
 | 5 kg | 311 |
@@ -74,6 +74,7 @@ void loop() {
 ## 30/01/2019 - Jeudi
 - Ré-étalonnage du capteur (Cf: les valeurs au dessus)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMxNzEzMzc5LDc0OTkwMDkwMiwxODEyND
-gyNjI4LDgyMjM0NTU3NiwxNzMwMzM3MzQ2XX0=
+eyJoaXN0b3J5IjpbLTM1MTgwMjE2NSw3MzE3MTMzNzksNzQ5OT
+AwOTAyLDE4MTI0ODI2MjgsODIyMzQ1NTc2LDE3MzAzMzczNDZd
+fQ==
 -->
