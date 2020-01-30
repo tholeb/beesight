@@ -69,12 +69,12 @@ void loop() {
 | 8 kg | 360 |
 
 #### Courbe de tendance de capteur #2
-![Courbe de tendance du module #2](https://i.imgur.com/DvhTE50.png)
+![Courbe de tendance du module #2](https://i.imgur.com/PWdDhDC.png)
 
 ## 30/01/2019 - Jeudi
 - Ré-étalonnage du capteur (Cf: les valeurs au dessus)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDUxNjc1ODAsNzc3MTUxMzksLTY3OD
-IzOTgzNCw3MzE3MTMzNzksNzQ5OTAwOTAyLDE4MTI0ODI2Mjgs
-ODIyMzQ1NTc2LDE3MzAzMzczNDZdfQ==
+eyJoaXN0b3J5IjpbNDU3OTc3NjcwLDc3NzE1MTM5LC02NzgyMz
+k4MzQsNzMxNzEzMzc5LDc0OTkwMDkwMiwxODEyNDgyNjI4LDgy
+MjM0NTU3NiwxNzMwMzM3MzQ2XX0=
 -->
