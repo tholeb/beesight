@@ -4,7 +4,7 @@
 ## Avant 29/01/2019
 - Démarrage du site internet
     - Dossier `Assets` mis en place
-    - Index démarré (sticky navbar, footer, parallax, Datatables.js, charts.js)
+    - Index démarré *(sticky navbar, footer, parallax, Datatables.js, charts.js)*
 - Recherche par rapport au capteur de poids, par rapport aux graphiques Charts.js
 - Tentative de prise de mesures sur le capteur (mesures fausses, manquement de la masse)
 - Programme de la masse: 
@@ -24,8 +24,8 @@ void loop() {
 ```
 
 ## 29/01/2019 - Mercredi
-- Démarrage du "journal de bords" masse et module HS)
--  - [x] Étalonnage des capteurs de poids (chaque capteur a son module attribué et ne sera pas changé étant donné que les valeurs changent entres elles. 
+- Démarrage du *"fichier de bords"*
+- Étalonnage des capteurs de poids (chaque capteur a son module attribué et ne sera pas changé étant donné que les valeurs changent entres elles. 
 ### Capteur #0
 |Poids *(kg)*|Résultat sur le capteur(?)|
 |--|--|
@@ -74,7 +74,8 @@ void loop() {
 ## 30/01/2019 - Jeudi
 - Ré-étalonnage du capteur (Cf: les valeurs au dessus)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM2MjI5NjkyLDQ1Nzk3NzY3MCw3NzcxNT
-EzOSwtNjc4MjM5ODM0LDczMTcxMzM3OSw3NDk5MDA5MDIsMTgx
-MjQ4MjYyOCw4MjIzNDU1NzYsMTczMDMzNzM0Nl19
+eyJoaXN0b3J5IjpbLTY2ODc3MjMxOCwyMzYyMjk2OTIsNDU3OT
+c3NjcwLDc3NzE1MTM5LC02NzgyMzk4MzQsNzMxNzEzMzc5LDc0
+OTkwMDkwMiwxODEyNDgyNjI4LDgyMjM0NTU3NiwxNzMwMzM3Mz
+Q2XX0=
 -->
