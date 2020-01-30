@@ -63,10 +63,10 @@ void loop() {
 | 1 kg | 314 |
 | 2 kg | 321 |
 | 3 kg | 327 |
-| 5 kg | 327 |
-| 6 kg | 305|
-| 7 kg | 312 |
-| 8 kg | 320 |
+| 5 kg | 340 |
+| 6 kg | 346|
+| 7 kg | 352 |
+| 8 kg | 360 |
 
 #### Courbe de tendance de capteur #2
 ![Courbe de tendance du module #2](https://i.imgur.com/DvhTE50.png)
@@ -74,6 +74,6 @@ void loop() {
 ## 30/01/2019 - Jeudi
 - Ré-étalonnage du capteur (Cf: les valeurs au dessus)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjUyNDc1ODUsNzQ5OTAwOTAyLDE4MT
-I0ODI2MjgsODIyMzQ1NTc2LDE3MzAzMzczNDZdfQ==
+eyJoaXN0b3J5IjpbNzMxNzEzMzc5LDc0OTkwMDkwMiwxODEyND
+gyNjI4LDgyMjM0NTU3NiwxNzMwMzM3MzQ2XX0=
 -->
