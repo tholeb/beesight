@@ -6,10 +6,13 @@
     - Dossier `Assets` mis en place
     - Index démarré (sticky navbar, footer, parallax, Datatables.js, charts.js)
 - Recherche par rapport au capteur de poids, par rapport aux graphiques Charts.js
+- Tentative de prise de mesures sur le capteur (mesures fausses, manquement de la masse)
+- Programme de la masse: 
+```arduino
+```
 
 ## 29/01/2019 - Mercredi
-- Démarrage du "journal de bords"
-- Résolution des problèmes du capteur (Manque de la masse et module HS)
+- Démarrage du "journal de bords" masse et module HS)
 -  - [x] Étalonnage des capteurs de poids (chaque capteur a son module attribué et ne sera pas changé étant donné que les valeurs changent entres elles. 
 ### Capteur #0
 |Poids *(kg)*|Résultat sur le capteur(?)|
@@ -28,7 +31,7 @@
 
 ### Capteur #1
 |Poids *(kg)*|Résultat sur le capteur(?)|
-|--|--|
+
 | 0 kg (capteur vide) | 296 |
 | 1 kg | 302 |
 | 2 kg | 310 |
@@ -59,6 +62,6 @@
 ## 30/01/2019 - Jeudi
 - Ré-étalonnage du capteur (Cf: les valeurs au dessus)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ5OTAwOTAyLDE4MTI0ODI2MjgsODIyMz
-Q1NTc2LDE3MzAzMzczNDZdfQ==
+eyJoaXN0b3J5IjpbMTc1NjA3Njk3OSw3NDk5MDA5MDIsMTgxMj
+Q4MjYyOCw4MjIzNDU1NzYsMTczMDMzNzM0Nl19
 -->
