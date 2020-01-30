@@ -87,13 +87,13 @@ void loop() {
 
 ### 30/01/2020 - Jeudi
 - Pages
-	- Graphique de la masse 
-	- Tableau de la masse
+	- Graphique de la masse *(charts.js)*
+	- Tableau de la masse *(datatables)*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjA0MDQ1MTIsMjAwMzg4MjgwNCwtNj
-Y4NzcyMzE4LDIzNjIyOTY5Miw0NTc5Nzc2NzAsNzc3MTUxMzks
-LTY3ODIzOTgzNCw3MzE3MTMzNzksNzQ5OTAwOTAyLDE4MTI0OD
-I2MjgsODIyMzQ1NTc2LDE3MzAzMzczNDZdfQ==
+eyJoaXN0b3J5IjpbLTgzOTQ3MTkwMywyMDAzODgyODA0LC02Nj
+g3NzIzMTgsMjM2MjI5NjkyLDQ1Nzk3NzY3MCw3NzcxNTEzOSwt
+Njc4MjM5ODM0LDczMTcxMzM3OSw3NDk5MDA5MDIsMTgxMjQ4Mj
+YyOCw4MjIzNDU1NzYsMTczMDMzNzM0Nl19
 -->
