@@ -1,11 +1,10 @@
 
 # Fichier de bords - Thomas LEBRETON
 
-## Avant 29/01/2019
-- Démarrage du site internet
-    - Dossier `Assets` mis en place
-    - Index démarré *(sticky navbar, footer, parallax, Datatables.js, charts.js)*
-- Recherche par rapport au capteur de poids, par rapport aux graphiques Charts.js
+## Capteur de masse
+
+### Avant 29/01/2019
+- Recherche par rapport au capteur de poids, (docs)
 - Tentative de prise de mesures sur le capteur (mesures fausses, manquement de la masse)
 - Programme de la masse: 
 ```arduino
@@ -23,10 +22,10 @@ void loop() {
 }
 ```
 
-## 29/01/2019 - Mercredi
+### 29/01/2019 - Mercredi
 - Démarrage du *"fichier de bords"*
 - Étalonnage des capteurs de poids (chaque capteur a son module attribué et ne sera pas changé étant donné que les valeurs changent entres elles. 
-### Capteur #0
+#### Capteur #0
 |Poids *(kg)*|Résultat sur le capteur(?)|
 |--|--|
 | 0 kg (capteur vide) | 276 |
@@ -38,10 +37,10 @@ void loop() {
 | 7 kg | 320 |
 | 8 kg | 327 |
 
-#### Courbe de tendance de Capteur #0
+##### Courbe de tendance de Capteur #0
 ![Courbe de tendance de y en fonction de x](https://i.imgur.com/ykvpD7x.png)
 
-### Capteur #1
+#### Capteur #1
 |Poids *(kg)*|Résultat sur le capteur(?)|
 
 | 0 kg (capteur vide) | 343 |
@@ -53,10 +52,10 @@ void loop() {
 | 7 kg | 389 |
 | 8 kg | 396 |
 
-#### Courbe de tendance de capteur #1
+##### Courbe de tendance de capteur #1
 ![Courbe de tendance de Module #1](https://i.imgur.com/U3jx82K.png)
 
-### Capteur #2
+#### Capteur #2
 |Poids *(kg)*|Résultat sur le capteur(?)|
 |--|--|
 | 0 kg (capteur vide) | 308 |
@@ -68,24 +67,26 @@ void loop() {
 | 7 kg | 352 |
 | 8 kg | 360 |
 
-#### Courbe de tendance de capteur #2
+##### Courbe de tendance de capteur #2
 ![Courbe de tendance du module #2](https://i.imgur.com/PWdDhDC.png)
 
-## 30/01/2019 - Jeudi
+### 30/01/2019 - Jeudi
 - Ré-étalonnage du capteur (Cf: les valeurs au dessus)
 - Mis à Jour du site internet ()
 
 
 
 
-# Changelogs site internet
-
-## Avant 29/01/2019
+## Changelogs site internet
+- Démarrage du site internet
+    - Dossier `Assets` mis en place
+    - Index démarré *(sticky navbar, footer, parallax, Datatables.js, charts.js)*
+### Avant 29/01/2019
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDk0MDg1MCwtNjY4NzcyMzE4LDIzNj
-IyOTY5Miw0NTc5Nzc2NzAsNzc3MTUxMzksLTY3ODIzOTgzNCw3
-MzE3MTMzNzksNzQ5OTAwOTAyLDE4MTI0ODI2MjgsODIyMzQ1NT
-c2LDE3MzAzMzczNDZdfQ==
+eyJoaXN0b3J5IjpbMzM5ODM4MTUsLTY2ODc3MjMxOCwyMzYyMj
+k2OTIsNDU3OTc3NjcwLDc3NzE1MTM5LC02NzgyMzk4MzQsNzMx
+NzEzMzc5LDc0OTkwMDkwMiwxODEyNDgyNjI4LDgyMjM0NTU3Ni
+wxNzMwMzM3MzQ2XX0=
 -->
