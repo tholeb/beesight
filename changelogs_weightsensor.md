@@ -78,15 +78,20 @@ void loop() {
 
 
 ## Changelogs site internet
+
+### Avant 29/01/2019
 - Démarrage du site internet
     - Dossier `Assets` mis en place
     - Index démarré *(sticky navbar, footer, parallax, Datatables.js, charts.js)*
-### Avant 29/01/2019
+- Recherche par rapport a [Charts.js](https://www.chartjs.org/)
+
+### 30/01/2020 - Jeudi
+- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM5ODM4MTUsLTY2ODc3MjMxOCwyMzYyMj
-k2OTIsNDU3OTc3NjcwLDc3NzE1MTM5LC02NzgyMzk4MzQsNzMx
-NzEzMzc5LDc0OTkwMDkwMiwxODEyNDgyNjI4LDgyMjM0NTU3Ni
-wxNzMwMzM3MzQ2XX0=
+eyJoaXN0b3J5IjpbMjAwMzg4MjgwNCwtNjY4NzcyMzE4LDIzNj
+IyOTY5Miw0NTc5Nzc2NzAsNzc3MTUxMzksLTY3ODIzOTgzNCw3
+MzE3MTMzNzksNzQ5OTAwOTAyLDE4MTI0ODI2MjgsODIyMzQ1NT
+c2LDE3MzAzMzczNDZdfQ==
 -->
