@@ -86,12 +86,14 @@ void loop() {
 - Recherche par rapport a [Charts.js](https://www.chartjs.org/)
 
 ### 30/01/2020 - Jeudi
-- 
+- Pages
+	- Graphique de la masse 
+	- Tableau de la masse
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMzg4MjgwNCwtNjY4NzcyMzE4LDIzNj
-IyOTY5Miw0NTc5Nzc2NzAsNzc3MTUxMzksLTY3ODIzOTgzNCw3
-MzE3MTMzNzksNzQ5OTAwOTAyLDE4MTI0ODI2MjgsODIyMzQ1NT
-c2LDE3MzAzMzczNDZdfQ==
+eyJoaXN0b3J5IjpbLTE4MjA0MDQ1MTIsMjAwMzg4MjgwNCwtNj
+Y4NzcyMzE4LDIzNjIyOTY5Miw0NTc5Nzc2NzAsNzc3MTUxMzks
+LTY3ODIzOTgzNCw3MzE3MTMzNzksNzQ5OTAwOTAyLDE4MTI0OD
+I2MjgsODIyMzQ1NTc2LDE3MzAzMzczNDZdfQ==
 -->
