@@ -87,12 +87,12 @@ void loop() {
 
 ### 30/01/2020 - Jeudi
 - Pages
-	- Graphique de la masse *(charts.js)*
-	- Tableau de la masse *(datatables)*
+	- Graphique de la masse * ([Charts.js](https://www.chartjs.org/))*
+	- Tableau de la masse *  ([datatables.js](https://www.datatables.net/)) *
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NjkzMzYyOSwtODM5NDcxOTAzLDIwMD
+eyJoaXN0b3J5IjpbMTk5ODU1MzY0OSwtODM5NDcxOTAzLDIwMD
 M4ODI4MDQsLTY2ODc3MjMxOCwyMzYyMjk2OTIsNDU3OTc3Njcw
 LDc3NzE1MTM5LC02NzgyMzk4MzQsNzMxNzEzMzc5LDc0OTkwMD
 kwMiwxODEyNDgyNjI4LDgyMjM0NTU3NiwxNzMwMzM3MzQ2XX0=
