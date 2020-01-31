@@ -42,7 +42,7 @@ void loop() {
 
 #### Capteur #1
 |Poids *(kg)*|Résultat sur le capteur(?)|
-
+|--|--|
 | 0 kg (capteur vide) | 343 |
 | 1 kg | 350 |
 | 2 kg | 357 |
@@ -92,8 +92,9 @@ void loop() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzOTQ3MTkwMywyMDAzODgyODA0LC02Nj
-g3NzIzMTgsMjM2MjI5NjkyLDQ1Nzk3NzY3MCw3NzcxNTEzOSwt
-Njc4MjM5ODM0LDczMTcxMzM3OSw3NDk5MDA5MDIsMTgxMjQ4Mj
-YyOCw4MjIzNDU1NzYsMTczMDMzNzM0Nl19
+eyJoaXN0b3J5IjpbLTc3NjkzMzYyOSwtODM5NDcxOTAzLDIwMD
+M4ODI4MDQsLTY2ODc3MjMxOCwyMzYyMjk2OTIsNDU3OTc3Njcw
+LDc3NzE1MTM5LC02NzgyMzk4MzQsNzMxNzEzMzc5LDc0OTkwMD
+kwMiwxODEyNDgyNjI4LDgyMjM0NTU3NiwxNzMwMzM3MzQ2XX0=
+
 -->
