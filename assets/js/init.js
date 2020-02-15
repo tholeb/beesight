@@ -15,7 +15,7 @@ $(document).ready(function () {
         hover: false,
         coverTrigger: false,
         belowOrigin: true,
-        constrainWidth: true,
+        constrainWidth: false,
         alignment: 'right',
     });
 });

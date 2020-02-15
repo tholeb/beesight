@@ -10,16 +10,15 @@
       <link rel="icon" type="image/png" href="<?= $wURL; ?>assets/img/logo/bee.png">
       <script src="https://kit.fontawesome.com/a076d05399.js"></script>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-      <script src="https://kit.fontawesome.com/37a49bd997.js" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/51d5d17c56.js" crossorigin="anonymous"></script>
       <title><?= $GLOBAL['title'] ?> | Accueil</title>
     </head>
 
     <body>
       <div class="parallax-container">
         <div class="parallax"><img src="assets/img/background/hive.png"></div>
-        <div class="container">
-          <img src="assets/img/logo/hive.png" alt="" style="padding-top:70%:">
-        </div>
+        <img src="assets/img/logo/naturalhive.png" alt="wallpaper" class="right">
+        <img src="assets/img/logo/bee.png" alt="bee" class="bee">
       </div>
       <ul id='diagrams' class='dropdown-content'>
         <li><a href="#!" class="amber-text"><i class="fas fa-balance-scale material-Icons left amber-text"></i>Masse</a></li>
@@ -29,7 +28,7 @@
       <nav>
         <div class="nav-wrapper amber">
           <ul class="left hide-on-med-and-down">
-            <li><a href="sass.html">Sass</a></li>
+            <li><a href="sass.html"><i class="material-icons left">home</i> Accueil</a></li>
             <li><a href="badges.html">Components</a></li>
             <li><a href="collapsible.html">Javascript</a></li>
             <li><a href="mobile.html">Mobile</a></li>
@@ -37,9 +36,10 @@
           <a href="#!" class="brand-logo hide-on-large-only show-on-medium-and-down">Logo</a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
-            <li><a class='dropdown-trigger' href='#' data-target='diagrams'>Graphiques<i class="material-icons right">arrow_drop_down</i></a></li>
-            <li><a href="login" class="modal-trigger"><i class="material-icons right">account_circle</i> Mon compte</a></li>
-
+            <li><a class='dropdown-trigger' href='#' data-target='diagrams'><i class="material-icons left">insert_chart</i> Graphiques<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="login" class="modal-trigger"><i class="fas fa-sign-in-alt material-icons left"></i> Se connecter</a></li>
+            <li><a href="login" class="modal-trigger"><i class="fas fa-sign-in-alt material-icons left"></i> S'enregistrer</a></li>
+            <li><a href="login" class="modal-trigger"><i class="material-icons left">account_circle</i> Mon compte</a></li>
           </ul>
         </div>
       </nav>
@@ -129,8 +129,9 @@
         <div class="container">
           <div class="row">
             <div class="col l6 s12">
-              <h5 class="white-text">Footer Content</h5>
-              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              <h5 class="white-text">Qui sommes nous ?</h5>
+              <p class="grey-text text-lighten-4">Nous sommes un groupe de 4 élèves en STI2D SIN au lycée Chevrollier, à Angers. BeeSight est notre projet de fin d'année (2019-2020) pour le BAC.</p>
+              <br><iframe src="https://ghbtns.com/github-btn.html?user=tholeb&repo=tlb_beesight&type=watch&count=true&size=large"height="30px" style="border-style:none;"></iframe>
             </div>
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text">Links</h5>
@@ -145,8 +146,9 @@
         </div>
         <div class="footer-copyright">
           <div class="container">
-          © 2014 Copyright Text
-          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          © 2019-2020 Copyright <a href="https://github.com/tholeb/tlb_beesight" class="black-text">BeeSight's members
+         </a>
+          <a class="grey-text text-lighten-4 right" href="about-us">About us</a>
           </div>
         </div>
       </footer>

@@ -1068,3 +1068,29 @@ a.middle-indicator-text {
 .highcharts-title {
   font-size: 1.5rem !important;
 }
+
+.bee {
+  animation:mymove 5s 2;
+  position: absolute;
+  width: 30px;
+  transform: rotate(90deg);
+  -webkit-animation:bee 5s infinite; /* Safari and Chrome */
+  animation:bee 5s infinite;
+  top:79%;
+}
+
+@keyframes bee
+{
+  0%   {left:-100px;}
+  70% {left:75vw;opacity: 1;}
+  75% {left:75vw;opacity: 0; transition: 0.5s;}
+  100% {left:102vw;opacity: 0;}
+}
+
+@-webkit-keyframes bee /* Safari and Chrome */
+{
+  0%   {left:-100px;}
+  70% {left:75vw;opacity: 1;}
+  75% {left:75vw;opacity: 0; transition: 0.5s;}
+  100% {left:102vw;opacity: 0;}
+}
