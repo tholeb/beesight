@@ -74,7 +74,9 @@ void loop() {
 - Ré-étalonnage du capteur (Cf: les valeurs au dessus)
 - Mis à Jour du site internet ()
 
-
+## 04/03/2019 -Mercredi
+- mise en place de la value `map` (abandons, résultats incohérents)
+- 
 
 
 ## Changelogs site internet
@@ -93,9 +95,8 @@ void loop() {
 ## 04/03/2019 -Mercredi
 - login/register form
 - forms styles
-- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNzQ2MzY1MywtMTM2ODkzNDcxLDE5ND
+eyJoaXN0b3J5IjpbMTc5NjM4MjU3NCwtMTM2ODkzNDcxLDE5ND
 Y0NTE2MDksLTgzOTQ3MTkwMywyMDAzODgyODA0LC02Njg3NzIz
 MTgsMjM2MjI5NjkyLDQ1Nzk3NzY3MCw3NzcxNTEzOSwtNjc4Mj
 M5ODM0LDczMTcxMzM3OSw3NDk5MDA5MDIsMTgxMjQ4MjYyOCw4
