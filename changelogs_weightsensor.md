@@ -91,11 +91,13 @@ void loop() {
 	- Tableau de la masse ([datatables.js](https://www.datatables.net/))
 
 ## 04/03/2019 -Mercredi
+- login/register form
+- forms styles
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjg5MzQ3MSwxOTQ2NDUxNjA5LC04Mz
-k0NzE5MDMsMjAwMzg4MjgwNCwtNjY4NzcyMzE4LDIzNjIyOTY5
-Miw0NTc5Nzc2NzAsNzc3MTUxMzksLTY3ODIzOTgzNCw3MzE3MT
-MzNzksNzQ5OTAwOTAyLDE4MTI0ODI2MjgsODIyMzQ1NTc2LDE3
-MzAzMzczNDZdfQ==
+eyJoaXN0b3J5IjpbLTczNzQ2MzY1MywtMTM2ODkzNDcxLDE5ND
+Y0NTE2MDksLTgzOTQ3MTkwMywyMDAzODgyODA0LC02Njg3NzIz
+MTgsMjM2MjI5NjkyLDQ1Nzk3NzY3MCw3NzcxNTEzOSwtNjc4Mj
+M5ODM0LDczMTcxMzM3OSw3NDk5MDA5MDIsMTgxMjQ4MjYyOCw4
+MjIzNDU1NzYsMTczMDMzNzM0Nl19
 -->
