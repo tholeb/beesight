@@ -13,34 +13,40 @@
           <div class="col s12 m9 l6 offset-l3 offset-m1">
             <div class="card white z-depth-1" style="border:1px solid ;border-color:#ffc107;">
               <div class="card-content white-text">
-                <span class="card-title black-text">Se connecter</span>
+                <span class="card-title black-text">S'enregistrer</span>
                 <div class="row">
-                  <form class="col s12" action="<?php echo htmlspecialchars('assets/resources/forms/login_query.php'); ?>" method="post">
+                  <form class="col s12">
                     <div class="row">
                       <div class="input-field col s12">
                         <i class="material-icons prefix">email</i>
-                        <input id="icon_email" type="email" class="validate" name="email">
+                        <input id="icon_email" type="email" class="validate">
                         <label for="icon_email">Email</label>
-                        <span class="helper-text" data-error="Veuillez renseigner un email valide" data-success="Email valide"></span>
+                        <span class="helper-text" data-error="wrong" data-success="right"></span>
+                      </div>
+                      <div class="input-field col s12">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="icon_name" type="text" class="validate">
+                        <label for="icon_name">Nom Prénom</label>
+                        <span class="helper-text" data-error="wrong" data-success="right"></span>
                       </div>
                       <div class="input-field col s12">
                         <i class="material-icons prefix">more</i>
-                        <input id="icon_pswd" type="password" class="validate" name="password">
+                        <input id="icon_pswd" type="password" class="validate">
                         <label for="icon_pswd">Mot de passe</label>
-                        <span class="helper-text" data-error="Veuillez mettre un mot de passe d'au moins 8 caractères" data-success="right"></span>
+                        <span class="helper-text" data-error="wrong" data-success="right"></span>
                       </div>
                       <div class="input-field col s12">
                         <i class="material-icons prefix">more</i>
-                        <input id="icon_pswvalidate" type="password" class="validate" name="password_conf">
+                        <input id="icon_pswvalidate" type="password" class="validate">
                         <label for="icon_pswvalidate">Valider votre mot de passe</label>
-                        <span class="helper-text" data-error="les mots de passes ne sont pas identiques" data-success="right"></span>
+                        <span class="helper-text" data-error="wrong" data-success="right"></span>
                       </div>
                     </div>
                   </form>
                 </div>
               </div>
               <div class="card-action">
-                <button href="#" class="btn amber" type="submit" name="submit"> Valider</button>
+                <button href="#" class="btn amber" type="submit"> Valider</button>
               </div>
             </div>
           </div>
@@ -74,21 +80,6 @@
           </div>
         </div>
       </footer>
-      <script type="text/javascript">
-      function CheckPassword(inputtxt)
-      {
-        var passw=  /^[A-Za-z]\w{7,14}$/;
-        if(inputtxt.value.match(passw))
-      {
-        return true;
-      }
-      else
-      {
-        alert('Wrong...!');
-        return false;
-      }
-      }
-      </script>
       <script src="https://code.jquery.com/jquery-3.4.1.min.js" charset="utf-8"></script>
       <script src='https://code.highcharts.com/highcharts.js'></script>
       <script src='https://code.highcharts.com/modules/exporting.js'></script>

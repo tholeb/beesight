@@ -1,16 +1,20 @@
 <?php include("config.php"); ?>
 
+<?php
+  $value = rand(10,100);
+	$date = date('Y/m/d h:i:s');
+	 {
+	   $query = $bdd->prepare("INSERT INTO temperature (Timestamp,value) VALUES (:date,:value)");
+     $query->bindParam(':date', $date);
+	   $query->bindParam(':value', $value);
+	   $query->execute();
+	 }
+ ?>
+
 <!DOCTYPE html>
   <html lang="fr">
     <head>
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-      <link type="text/css" rel="stylesheet" href="assets/css/style.css"  media="screen,projection"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <link rel="icon" type="image/png" href="<?= $wURL; ?>assets/img/logo/bee.png">
-      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-      <script src="https://kit.fontawesome.com/51d5d17c56.js" crossorigin="anonymous"></script>
+      <?php include('assets/resources/meta/head.php') ?>
       <title><?= $GLOBAL['title'] ?> | Accueil</title>
     </head>
 
@@ -51,6 +55,16 @@
         <li><a href="mobile.html">Mobile</a></li>
       </ul>
       <div class="container">
+        <?php
+          $sql = "SELECT * FROM temperature ORDER BY id ASC";
+          $result = $bdd->query($sql);
+          $temperatures = array();
+          $dates = array();
+          while ($row = $result->fetch()) {
+          	$temperatures[] = $row['value'];
+            $dates[] = $row['Timestamp'];
+          }
+        ?>
         <div id="basic-area" class="card-panel"></div>
       </div>
 
@@ -115,8 +129,8 @@
               </div>
               <p class="hide-on-large-only show-on-medium-and-down black-text center">Désolé l'affichage via un appareil téléphone ou tablette est impossible</p>
               <div class="card-action">
-                <a class="waves-effect waves-light btn amber-text btn-small" href="<?= $wURL ?>government/bcso/database"><i class="material-icons left">data_usage</i> Accéder</a>
-                <a href="<?= $wURL ?>government/bcso/database" class="white-text"><span class="new badge amber-text white-text" data-badge-caption="lignes dans le bdd"> </span></a>
+                <a class="waves-effect waves-light btn amber btn-small" href=""><i class="material-icons left">data_usage</i> Accéder</a>
+                <a href="" class="white-text"><span class="new badge amber white-text" data-badge-caption="lignes dans le bdd"> </span></a>
               </div>
             </div>
           </div>
@@ -158,7 +172,62 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
       <script src="assets/js/init.js" charset="utf-8"></script>
       <script src="assets/js/main.js" charset="utf-8"></script>
-      <script src="assets/js/charts.js" charset="utf-8"></script>
+      <!-- <script src="assets/js/charts.js" charset="utf-8"></script> -->
+      <script type="text/javascript">
+      Highcharts.chart('basic-area', {
+          chart: {
+              type: 'area'
+          },
+          title: {
+              text: 'Température de la ruche'
+          },
+          subtitle: {
+              text: 'affichage des température de la ruche en fonction du temps'
+          },
+          xAxis: {
+              allowDecimals: true,
+              labels: {
+                  formatter: function () {
+                      return this.value; // clean, unformatted number for year
+                  }
+              }
+          },
+          yAxis: {
+              title: {
+                  text: 'Température de la ruche'
+              },
+              labels: {
+                  formatter: function () {
+                      return this.value + '°C';
+                  }
+              }
+          },
+          tooltip: {
+              pointFormat: '{series.name}: <b>{point.y:,.0f}°C </b><br/>le {point.x}'
+          },
+          plotOptions: {
+              area: {
+                  pointStart: 1940,
+                  marker: {
+                      enabled: false,
+                      symbol: 'circle',
+                      radius: 2,
+                      states: {
+                          hover: {
+                              enabled: true
+                          }
+                      }
+                  }
+              }
+          },
+          series: [{
+          	name: 'Température interne',
+          	data: [<?php echo join($temperatures, ', '); ?>]
+          }]
+      });
+
+
+      </script>
       <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.20/r-2.2.3/datatables.min.js"></script>
       <script src="assets/js/datatables.js" charset="utf-8"></script>
     </body>
