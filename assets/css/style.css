@@ -11,25 +11,25 @@
 .scroll-line {
   height: 3px;
   margin-bottom: 0px;
-  background: -webkit-gradient(linear, left top, right top, from(#00f485), to(#057945));
-  background: linear-gradient(to right, #00f485, #057945);
+  background: -webkit-gradient(linear, left top, right top, from(#ffc107), to(#ff6f00  ));
+  background: linear-gradient(to right, #ffc107, #ff6f00  );
   width: 0%;
 }
 
 .gradient {
-  color: linear-gradient(to right, #00f485, #057945);
-  background: -webkit-linear-gradient(#00f485, #057945);
+  color: linear-gradient(to right, #ffc107, #ff6f00  );
+  background: -webkit-linear-gradient(#ffc107, #ff6f00  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .switch label input[type=checkbox]:checked + .lever {
-  background-color: #00f485;
+  background-color: #ffc107;
 }
 
 .switch label input[type=checkbox]:checked + .lever:after {
-  background-color: #00f485;
+  background-color: #ffc107;
 }
 
 .slides li .paraslider {

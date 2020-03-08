@@ -23,7 +23,7 @@ $(document).ready(function () {
 /* Pushpin */
 $(document).ready(function () {
     $('.navindex').pushpin({
-        top: 937,
+        top: 500,
     });
 });
 

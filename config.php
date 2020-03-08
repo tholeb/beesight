@@ -4,7 +4,7 @@ ini_set('display_errors', 1);
 header('Content-Type: text/html; charset=utf-8');
 $aURL = __DIR__."/";
 $protocol = $_SERVER['PROTOCOL'] = isset($_SERVER['HTTPS']) && !empty($_SERVER['HTTPS']) ? 'https' : 'http';
-if ($_SERVER['HTTP_HOST'] == 'localhost') {
+if ($_SERVER['HTTP_HOST'] != 'beesight.fr') {
   $wURL = "$protocol://$_SERVER[HTTP_HOST]/" . basename(__DIR__) . "/";
 } else {
   $wURL = "$protocol://$_SERVER[HTTP_HOST]/";
@@ -23,4 +23,4 @@ require $aURL.'assets/resources/config/database.php';
    die('Erreur : ' . $e->getMessage());
    echo 'Échec lors de la connexion ' . $namebase . ': ' . $e->getMessage();
   }
-  ?>
+?>

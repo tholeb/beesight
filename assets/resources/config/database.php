@@ -7,7 +7,7 @@ if ($wURL == 'http://vlife.fr/' || $wURL == 'http://vlife.tk/') {
   }
   else {
     $username = "phpmyadmin";
-    $password = "root";
+    $password = "admin";
     $hostname = "localhost";
     $namebase = "beesight";
   }
