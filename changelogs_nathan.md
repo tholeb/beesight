@@ -10,6 +10,7 @@
 |  4  |Algo Traitement de l'info |  |
 |  5  |Simuler et justifier les écart |  |
 |  6  |Algo Affichage a distance |  |
+
 ### Avant 12/02/2020
 - Doc sur le truc.
 - Prise de mesure simple.
@@ -54,6 +55,6 @@ et noter les valeur en décibel et les valeur mesurer sur arduino.
 >  [Sheet ici](https://docs.google.com/spreadsheets/d/133RPKNsWRieG14LGotJO9RshFlUGa-fDCgtgrPeGtSU/edit#gid=0)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MDUyNDc0MCwxNzUzNjA4NzIzLC0xOT
-UwNTYwMjcyLC0xOTg0MTMzMTYxLC0xMjM4MjYwMTk2XX0=
+eyJoaXN0b3J5IjpbMzE5ODU2NzI2LDE3NTM2MDg3MjMsLTE5NT
+A1NjAyNzIsLTE5ODQxMzMxNjEsLTEyMzgyNjAxOTZdfQ==
 -->
