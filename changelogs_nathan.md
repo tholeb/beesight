@@ -49,7 +49,9 @@ et noter les valeur en décibel et les valeur mesurer sur arduino.
 ```
 ### 12/03/2020 - Jeudi
 
-Pour la revu de projet expliqué le [scripte + sql.](https://github.com/MrRoiPanda/tlb_beesight/blob/website/index.php)
+- Pour la revu de projet expliqué le [scripte + sql.](https://github.com/MrRoiPanda/tlb_beesight/blob/website/index.php)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzgyNjAxOTZdfQ==
+eyJoaXN0b3J5IjpbLTE5ODQxMzMxNjEsLTEyMzgyNjAxOTZdfQ
+==
 -->
