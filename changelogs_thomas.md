@@ -80,14 +80,6 @@ void loop() {
 
 ### 12/03/2019 - Jeudi  
 
-- login/register form  
-- forms styles### 04/03/2019 -Mercredi  
-
-- login/register form  
-- forms styles# 04/03/2019 -Mercredi
-- login/register form
-- forms styles
-
 ## Changelogs site internet
 
 ### Avant 29/01/2019
@@ -101,13 +93,13 @@ void loop() {
 	- Graphique de la masse ([Charts.js](https://www.chartjs.org/))
 	- Tableau de la masse ([datatables.js](https://www.datatables.net/))
 
-### 04/03/2019 -Mercredi
+### 04/03/2019 - Mercredi
 - login/register form
 - forms styles
 
-### 12/03/2019 -Mercredi
+### 12/03/2019 - Jeudi
 - paramétrage du VPS
 - mise en place de la bdd
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTY0NzY0MV19
+eyJoaXN0b3J5IjpbLTE5OTkyNTA2NV19
 -->
