@@ -50,10 +50,10 @@ et noter les valeur en décibel et les valeur mesurer sur arduino.
 ### 12/03/2020 - Jeudi
 
 - Pour la revu de projet expliqué le [scripte + sql.](https://github.com/MrRoiPanda/tlb_beesight/blob/website/index.php)
-- Début étalonnage Capteur Sonor (Dans la ruche Seule dans la salle )
+- Début étalonnage Capteur Sonor (Dans la ruche a l'opposer du son, Seule dans la salle )
 >  [Sheet ici](https://docs.google.com/spreadsheets/d/133RPKNsWRieG14LGotJO9RshFlUGa-fDCgtgrPeGtSU/edit#gid=0)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MzYwODcyMywtMTk1MDU2MDI3MiwtMT
-k4NDEzMzE2MSwtMTIzODI2MDE5Nl19
+eyJoaXN0b3J5IjpbMTc0MDUyNDc0MCwxNzUzNjA4NzIzLC0xOT
+UwNTYwMjcyLC0xOTg0MTMzMTYxLC0xMjM4MjYwMTk2XX0=
 -->
