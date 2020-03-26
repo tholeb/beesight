@@ -3,9 +3,12 @@
   $jsonurl = "http://api.openweathermap.org/data/2.5/weather?id=3037656&APPID=b9dc5aaa05d9ceb94fb09596e819565d";
   $json = file_get_contents($jsonurl);
 
+  // OpenWeatherMap
   $weather = json_decode($json);
   $kelvin = $weather->main->temp;
   $celcius = $kelvin - 273.15;
+
+
   $valueTemp = rand(-10,30);
   $valueWeight = rand(15,35);
   $valueActivities = "0";
@@ -104,9 +107,6 @@
                               <p class="light black-text center">La base du RolePlay est l'interaction avec les joueurs, alors n'ayez pas peur et vienez rencontrer des joueurs sur VLife ! Si vous êtes plus du genre timide, vous pouvez aussi utiliser le <a href="<?= $lifeInvaderLink ?>" class="amber-text">LifeInvader</a></p>
                           </div>
                       </div>
-                  </div>
-                  <div class="row animate fadeInUp">
-                      <h6 class="black-text center">Lancé le 29 Août (2019), VLife cherche au plus a créer un serveur <span class="amber-text">unique</span>, <span class="amber-text">Lore-Friendly</span>, et <span class="amber-text">RolePlay</span>. Ici, vous pouvez arborer la vie que vous souhaitez</h6>
                   </div>
               </div>
           </div>
