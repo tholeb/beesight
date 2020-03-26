@@ -90,21 +90,21 @@
                           <div class="icon-block">
                               <h2 class="center amber-text"><i class="material-icons medium fas fa-chart-line"></i></h2>
                               <h5 class="center amber-text">Graphiques</h5>
-                              <p class="light black-text center">Rejoignez VLife en créant un avatar à votre image, choisissez parmi un catalogue de vêtement et de véhicule inépuisable ! </p>
+                              <p class="light black-text center">text</p>
                           </div>
                       </div>
                       <div class="col s12 m6 l6 xl4">
                           <div class="icon-block">
                               <h2 class="center amber-text"><i class="material-icons medium fas fa-archive"></i></h2>
                               <h5 class="center amber-text">Inoffensif</h5>
-                              <p class="light black-text center">Grâce a une équipe de développeurs compétants et présents, le serveur possède un développement unique et lore-friendly. Tous nos scripts sont uniques, et nous possédons un framework personnalisé totalement conçu par nos devs.</p>
+                              <p class="light black-text center">text</p>
                           </div>
                       </div>
                       <div class="col s12 m12 l12 xl4">
                           <div class="icon-block">
                               <h2 class="center amber-text"><i class="material-icons medium fas fa-tools"></i></h2>
                               <h5 class="center amber-text">Facile d'utilisation</h5>
-                              <p class="light black-text center">La base du RolePlay est l'interaction avec les joueurs, alors n'ayez pas peur et vienez rencontrer des joueurs sur VLife ! Si vous êtes plus du genre timide, vous pouvez aussi utiliser le <a href="<?= $lifeInvaderLink ?>" class="amber-text">LifeInvader</a></p>
+                              <p class="light black-text center">text</p>
                           </div>
                       </div>
                   </div>
