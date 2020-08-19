@@ -7,12 +7,13 @@
   <h3 align="center">A high school projet for <a href="https://chevrollier.paysdelaloire.e-lyco.fr/">Chevrollier</a> written in C <b>(Arduino)</b> and PHP.</h3> <br>
   <span align="center">Our Goal was to monitore a beehive <i>(weight, number of bees, ...)</i> with an Arduino board and then with a website.</span> <br>
   <center>
-    <code align="center">You can see the Trello <a href="https://trello.com/b/nzJZwQUY/g%C3%A9n%C3%A9ral">here</a>.</code> <br>
+    <code align="center">You can see the Trello of the project here <a href="https://trello.com/b/nzJZwQUY/g%C3%A9n%C3%A9ral">here</a>.</code> <br>
     <code align="center">⚠ Due to Covid-19, this project isn't finished :'(</code>
   </center>
 </p>
 
-## 👨‍🎓 Mates
+## 👨‍🎓 Team
+- [Me *(Thomas Lebreton)*](https://github.com/tholeb)
 - [Nathan Arial](https://github.com/MrRoiPanda)
 - wilhelm Picard
 - Mehdi Samy
