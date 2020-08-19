@@ -1,4 +1,4 @@
-<p align:center>
+<p align:"center">
   <a href="http://beesight.tholeb.fr">
     <img align="center" src="https://raw.githubusercontent.com/tholeb/beesight/website/assets/img/logo/bee.png" />
   </a>
