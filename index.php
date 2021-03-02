@@ -1,6 +1,7 @@
 <?php
   include("config.php");
-  $jsonurl = "http://api.openweathermap.org/data/2.5/weather?id=3037656&APPID=b9dc5aaa05d9ceb94fb09596e819565d";
+  $api_key = "";
+  $jsonurl = "http://api.openweathermap.org/data/2.5/weather?id=3037656&APPID=".$api_key;
   $json = file_get_contents($jsonurl);
 
   // OpenWeatherMap
